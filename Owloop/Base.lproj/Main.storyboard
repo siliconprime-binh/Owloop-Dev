@@ -168,6 +168,9 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="K24-4A-eTk"/>
+                    <connections>
+                        <outlet property="chooseCollectionView" destination="MwU-Ea-Ue7" id="KFN-ia-ugD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -178,5 +181,6 @@
         <image name="background" width="375" height="667"/>
         <image name="email-login-btn" width="287" height="49"/>
         <image name="facebook-login-btn" width="287" height="49"/>
+<image name="interest_exam_1" width="209" height="158"/>
     </resources>
 </document>

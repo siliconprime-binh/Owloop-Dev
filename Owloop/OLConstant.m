@@ -9,3 +9,4 @@
 #import "OLConstant.h"
 
 NSString *const kNavigationColor = @"0abbb5";
+NSString *const kChooseInsterestTitle = @"Choose Your Interests";

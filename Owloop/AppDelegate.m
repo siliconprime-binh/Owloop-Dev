@@ -19,6 +19,13 @@
     // Override point for customization after application launch.
     
     [self settingUI];
+    
+//    for (NSString *familyName in [UIFont familyNames]) {
+//     for (NSString *fontName in [UIFont fontNamesForFamilyName:familyName]) {
+//     NSLog(@"%@", fontName);
+//     }
+//     }
+    
     return YES;
 }
 

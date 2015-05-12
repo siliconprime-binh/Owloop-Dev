@@ -9,3 +9,7 @@
 #import <UIKit/UIKit.h>
 
 extern NSString *const kNavigationColor;
+
+
+/******** Navigation Title *********/
+extern NSString *const kChooseInsterestTitle;

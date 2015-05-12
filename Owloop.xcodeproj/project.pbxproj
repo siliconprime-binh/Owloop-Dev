@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C3062F61B01EB70008283D0 /* OLChooseInterestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3062F51B01EB70008283D0 /* OLChooseInterestsViewController.m */; };
+		1C3062FB1B01F3F8008283D0 /* OLChooseInterestViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3062FA1B01F3F8008283D0 /* OLChooseInterestViewCell.m */; };
 		1C7694D81B01B7E9001B2038 /* OLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7694D71B01B7E9001B2038 /* OLBaseNavigationController.m */; };
 		1C7694DB1B01B801001B2038 /* OLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7694DA1B01B801001B2038 /* OLBaseViewController.m */; };
 		1C7694E01B01B95E001B2038 /* UIColor+NLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7694DF1B01B95E001B2038 /* UIColor+NLKit.m */; };
@@ -33,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C3062F41B01EB70008283D0 /* OLChooseInterestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLChooseInterestsViewController.h; sourceTree = "<group>"; };
+		1C3062F51B01EB70008283D0 /* OLChooseInterestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLChooseInterestsViewController.m; sourceTree = "<group>"; };
+		1C3062F91B01F3F8008283D0 /* OLChooseInterestViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLChooseInterestViewCell.h; sourceTree = "<group>"; };
+		1C3062FA1B01F3F8008283D0 /* OLChooseInterestViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLChooseInterestViewCell.m; sourceTree = "<group>"; };
 		1C7694D61B01B7E9001B2038 /* OLBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLBaseNavigationController.h; sourceTree = "<group>"; };
 		1C7694D71B01B7E9001B2038 /* OLBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLBaseNavigationController.m; sourceTree = "<group>"; };
 		1C7694D91B01B801001B2038 /* OLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLBaseViewController.h; sourceTree = "<group>"; };
@@ -81,6 +87,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C3062F31B01EB10008283D0 /* Sign */ = {
+			isa = PBXGroup;
+			children = (
+				1C3062F41B01EB70008283D0 /* OLChooseInterestsViewController.h */,
+				1C3062F51B01EB70008283D0 /* OLChooseInterestsViewController.m */,
+			);
+			path = Sign;
+			sourceTree = "<group>";
+		};
+		1C3062F81B01F3C6008283D0 /* Sign */ = {
+			isa = PBXGroup;
+			children = (
+				1C3062F91B01F3F8008283D0 /* OLChooseInterestViewCell.h */,
+				1C3062FA1B01F3F8008283D0 /* OLChooseInterestViewCell.m */,
+			);
+			path = Sign;
+			sourceTree = "<group>";
+		};
 		1C7694D51B01B7B5001B2038 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				437ED8A61B01E941003612C7 /* SignUp */,
+				1C3062F31B01EB10008283D0 /* Sign */,
 				1C7694D51B01B7B5001B2038 /* Base */,
 			);
 			path = Controller;
@@ -204,6 +229,7 @@
 		1CCC05041B019D9D00A8CD4E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1C3062F81B01F3C6008283D0 /* Sign */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -378,6 +404,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C3062FB1B01F3F8008283D0 /* OLChooseInterestViewCell.m in Sources */,
+				1C3062F61B01EB70008283D0 /* OLChooseInterestsViewController.m in Sources */,
 				1CB1C46E1B01C08B00CA04FA /* OLConstant.m in Sources */,
 				1C793E671B00A99600D78803 /* ViewController.m in Sources */,
 				1C7694D81B01B7E9001B2038 /* OLBaseNavigationController.m in Sources */,
