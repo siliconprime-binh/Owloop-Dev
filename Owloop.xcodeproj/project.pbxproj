@@ -18,6 +18,7 @@
 		1C793E6F1B00A99600D78803 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C793E6D1B00A99600D78803 /* LaunchScreen.xib */; };
 		1C793E7B1B00A99600D78803 /* OwloopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C793E7A1B00A99600D78803 /* OwloopTests.m */; };
 		1CB1C46E1B01C08B00CA04FA /* OLConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1C46D1B01C08B00CA04FA /* OLConstant.m */; };
+		437ED8A91B01E941003612C7 /* OLSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437ED8A81B01E941003612C7 /* OLSignUpViewController.m */; };
 		6ECAD1CC3E17C206E88943B3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 953D8269EDE790006B12F206 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,8 @@
 		1CB1C46C1B01C08B00CA04FA /* OLConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLConstant.h; sourceTree = "<group>"; };
 		1CB1C46D1B01C08B00CA04FA /* OLConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLConstant.m; sourceTree = "<group>"; };
 		1CB1C46F1B01DE1B00CA04FA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		437ED8A71B01E941003612C7 /* OLSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLSignUpViewController.h; sourceTree = "<group>"; };
+		437ED8A81B01E941003612C7 /* OLSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLSignUpViewController.m; sourceTree = "<group>"; };
 		5C0A5F33D72FF1CE727AA1A2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8FE9F10AB9D0906047999969 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		953D8269EDE790006B12F206 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,6 +188,7 @@
 		1CCC05021B019D9D00A8CD4E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				437ED8A61B01E941003612C7 /* SignUp */,
 				1C7694D51B01B7B5001B2038 /* Base */,
 			);
 			path = Controller;
@@ -218,6 +222,15 @@
 				953D8269EDE790006B12F206 /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		437ED8A61B01E941003612C7 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				437ED8A71B01E941003612C7 /* OLSignUpViewController.h */,
+				437ED8A81B01E941003612C7 /* OLSignUpViewController.m */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 		C56AC7CC0A36B22B9BE250CF /* Pods */ = {
@@ -368,6 +381,7 @@
 				1CB1C46E1B01C08B00CA04FA /* OLConstant.m in Sources */,
 				1C793E671B00A99600D78803 /* ViewController.m in Sources */,
 				1C7694D81B01B7E9001B2038 /* OLBaseNavigationController.m in Sources */,
+				437ED8A91B01E941003612C7 /* OLSignUpViewController.m in Sources */,
 				1C7694E01B01B95E001B2038 /* UIColor+NLKit.m in Sources */,
 				1C793E641B00A99600D78803 /* AppDelegate.m in Sources */,
 				1C793E611B00A99600D78803 /* main.m in Sources */,

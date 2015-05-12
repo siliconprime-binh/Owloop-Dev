@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>513E86B5-6B6A-4916-BF2F-722004013BD3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Owloop</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>10B9BE532917CB11E57829F90F4E4842F7AD670A</key>
+		<string>https://github.com/siliconprime-binh/Owloop-Dev.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Owloop.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>10B9BE532917CB11E57829F90F4E4842F7AD670A</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/siliconprime-binh/Owloop-Dev.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>10B9BE532917CB11E57829F90F4E4842F7AD670A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>10B9BE532917CB11E57829F90F4E4842F7AD670A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Owloop-Dev</string>
+		</dict>
+	</array>
+</dict>
+</plist>

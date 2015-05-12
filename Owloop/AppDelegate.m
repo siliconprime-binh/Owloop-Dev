@@ -51,6 +51,7 @@
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
     
 //    [[UINavigationBar appearance] setBackgroundImage:[BTUtils imageWithColor:kLightBlue andSize:CGSizeMake(1, 1)] forBarMetrics:UIBarMetricsDefault];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     [[UINavigationBar appearance] setBarTintColor: [UIColor colorFromHexString:kNavigationColor]];
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor whiteColor]}];
