@@ -7,8 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "UIColor+NLKit.h"
-#import "OLConstant.h"
 
 @interface AppDelegate ()
 
