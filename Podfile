@@ -1,0 +1,6 @@
+platform :ios, '7.0'
+pod 'JSONModel'
+pod 'MBProgressHUD', '~> 0.8'
+pod 'SDWebImage', '~>3.6'
+pod 'SVPullToRefresh', :git => 'https://github.com/xhacker/SVPullToRefresh.git'
+pod 'AFNetworking', '~> 2.5.3'
